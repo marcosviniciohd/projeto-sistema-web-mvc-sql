@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício Thymeleaf</title>
+</head>
+<body>
+  <h1>Exercício1: valores do modelo</h1>
+  <h2>Informação de produto</h2>
+  <dl>
+      <dt>Nome do produto</dt>
+      <dd th:text="${prod.nome}">XXX</dd>
+
+      <dt>Preço do produto</dt>
+      <dd th:text="${prod.preco}">XXX</dd>
+  </dl>
+
+</body>
+</html>
