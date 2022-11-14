@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Prova</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr th:each="prova: ${lista}">
+            <td th:text="${prova.nome}"></td>
+            <td th:text="${prova.nota1}"></td>
+            <td th:text="${prova.nota2}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
